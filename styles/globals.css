@@ -116,6 +116,8 @@ a {
   .canvas {@apply w-full grow flex flex-col items-center justify-center bg-[#cef6ff];} 
 
   /* nav {@apply bg-slate-500} */
+  nav, .nav {@apply w-full flex items-center gap-4 px-4 bg-[#ffb703] text-[#023047] font-semibold text-xl; }
+  .navlink {@apply flex items-center gap-4 px-4 hover:bg-[#cef6ff] rounded-md;}
   main, .main { @apply flex flex-col items-center; }
 
   a, .a { @apply text-blue-900 underline;}

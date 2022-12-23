@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export function Navbar() {
   return (
-    <nav className="w-full flex items-center gap-4 px-4 bg-[#ffb703] text-[#023047] font-semibold text-xl">
+    <nav className="nav">
       <Link href="/" className="py-2">
         <Image
           src="/logo1-250-100.png"
@@ -13,7 +13,7 @@ export function Navbar() {
           priority
         />
       </Link>
-      <ul className="flex items-center gap-4 px-4 hover:bg-[#cef6ff] rounded-md">
+      <ul className="navlink">
         <li>
           <Link href="/">Home</Link>
         </li>
