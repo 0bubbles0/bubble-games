@@ -109,3 +109,16 @@ a {
     color-scheme: dark;
   }
 }
+
+@layer base {
+  .app {@apply relative min-h-screen h-full flex flex-col ;}
+  .viewport {@apply min-h-screen flex flex-col items-center bg-amber-200;}
+  .canvas {@apply w-full grow flex flex-col items-center justify-center bg-[#cef6ff];} 
+
+  /* nav {@apply bg-slate-500} */
+  main, .main { @apply flex flex-col items-center; }
+
+  a, .a { @apply text-blue-900 underline;}
+}
+
+@layer components {}
